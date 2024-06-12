@@ -3,7 +3,7 @@
 Created using JS Bin
 http://jsbin.com
 
-Copyright (c) 2024 by shinmubin (http://jsbin.com/papoliq/7/edit)
+Copyright (c) 2024 by Alishajang0702 (http://jsbin.com/zanomuk/3/edit)
 
 Released under the MIT license: http://jsbin.mit-license.org
 -->
@@ -24,6 +24,21 @@ Released under the MIT license: http://jsbin.mit-license.org
             flex-direction: column;
             align-items: center;
         }
+      
+#navi{width:100%; height:70px; text-align: center; margin: 50px;}
+#NT{font-size: 40px; font-family: helvetica; text-align: center;}
+
+a {color: white; text-decoration: none;}
+
+#Nwrap {display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      margin: 20px;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 20px}
+
         .container {
             display: flex;
             width: 90%;
@@ -75,6 +90,23 @@ Released under the MIT license: http://jsbin.mit-license.org
     </style>
 </head>
 <body>
+<div id="navi">
+<div id="NT"><a href="https://lilsdsd.github.io/crKim/"><b>The Perfect Musicians In The World!</b></a></div>
+<div id="Nwrap">
+  <div id="NWham">
+    <a href="https://alishajang0702.github.io/musician_wham/wham.html" onmouseover="changeText(this, 'MYOUNGIN');"  onmouseout="changeText(this, 'Wham!');">Wham!</a>
+  </div>
+  <div id="NOne">
+    <a href="https://alishajang0702.github.io/onerepublic/onerepublic.html"  onmouseover="changeText(this, 'HYOJU');"  onmouseout="changeText(this, 'The OneRepublic');">OneRepublic</a>
+  </div>
+  <div id="NBeatles">
+    <a href="https://alishajang0702.github.io/Beatles/the%20beatles.html" onmouseover="changeText(this, 'MUBIN');"  onmouseout="changeText(this, 'The Beatles');">The Beatles</a>
+  </div>
+  <div id="NMT">
+    <a href="https://alishajang0702.github.io/mordentalking/moderntalking.html" onmouseover="changeText(this, 'CHAERIN');"  onmouseout="changeText(this, 'Modern Talking');">Modern Talking</a>
+  </div>
+</div>
+</div>
     <div class="container">
         <div class="left">
             <h1>The Beatles</h1>
@@ -124,5 +156,9 @@ Released under the MIT license: http://jsbin.mit-license.org
             </div>
         </div>
     </div>
+<script id="jsbin-javascript">
+    function changeText(element, newText)
+      {element.innerText = newText;}
+</script>
 </body>
 </html>
