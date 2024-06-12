@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2024 by shinmubin (http://jsbin.com/papoliq/7/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Beatles Magazine</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Helvetica, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            width: 90%;
+            margin-top: 10px;
+        }
+        .left {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .left h1 {
+            font-family: 'Playfair Display', serif; 
+            font-size: 7em;
+            margin-bottom: 2px;
+            margin-top: 0;
+        }
+        .images {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+        }
+        .left img {
+            width: 48%;
+            height: auto;
+        }
+        .right {
+            flex: 1;
+            padding-left: 10px;
+        }
+        .section {
+            margin-bottom: 15px;
+        }
+        .section h2 {
+            font-size: 1.3em;
+            margin-bottom: 1.8px;
+        }
+        .section p, .section ul {
+            font-size: 0.75em;
+            line-height: 1.3em;
+        }
+        .section blockquote {
+            font-size: 0.75em;
+            line-height: 1.3em;
+            margin: 0 0 15px 0;
+            padding-left: 10px;
+            border-left: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>The Beatles</h1>
+            <div class="images">
+                <img src="https://i.imgur.com/kGozRMm.jpeg" alt="Beatles Image 1">
+                <img src="https://i.imgur.com/9kvZwjX.jpeg" alt="Beatles Image 2">
+            </div>
+        </div>
+        <div class="right">
+            <div class="section">
+                <h2>About the Members</h2>
+                <p>The Beatles were an English rock band formed in Liverpool in 1960. The group, whose best-known lineup comprised John Lennon, Paul McCartney, George Harrison, and Ringo Starr, are regarded as the most influential band of all time. They were integral to the development of 1960s counterculture and popular music's recognition as an art form.</p>
+                <p><strong>John Lennon</strong>: Co-lead vocalist and rhythm guitarist. Known for his witty and rebellious personality.</p>
+                <p><strong>Paul McCartney</strong>: Co-lead vocalist and bassist. Renowned for his melodic bass playing and wide vocal range.</p>
+                <p><strong>George Harrison</strong>: Lead guitarist. Famous for his innovative guitar solos and incorporation of Indian music.</p>
+                <p><strong>Ringo Starr</strong>: Drummer. Known for his steady drumming and unique style.</p>
+            </div>
+            <div class="section">
+                <h2>Famous Songs</h2>
+                <p>The Beatles have an extensive catalog of hit songs that have stood the test of time. Here are some of their most famous tracks:</p>
+                <ul>
+                    <li><strong>Hey Jude</strong>: An uplifting anthem written by Paul McCartney.</li>
+                    <li><strong>Let It Be</strong>: A soothing song inspired by Paul McCartney's mother.</li>
+                    <li><strong>Yesterday</strong>: A melancholic ballad that showcases McCartney's songwriting prowess.</li>
+                    <li><strong>Come Together</strong>: A funky track with a compelling rhythm, written by John Lennon.</li>
+                    <li><strong>Something</strong>: A love song penned by George Harrison, considered one of the greatest love songs ever written.</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Interviews</h2>
+                <p>In an exclusive interview, Paul McCartney shared insights about the band's dynamic and their creative process:</p>
+                <blockquote>
+                    "We were just kids trying to make music. There was a lot of pressure, but we always tried to have fun with it. Each one of us brought something unique to the table, and that’s what made The Beatles special."
+                </blockquote>
+                <p>John Lennon reflected on the cultural impact of their music:</p>
+                <blockquote>
+                    "Our music was a reflection of the times. We wanted to push boundaries and explore new ideas, both musically and socially. It was about more than just the music; it was about changing the world."
+                </blockquote>
+                <p>George Harrison discussed his incorporation of Indian music into their work:</p>
+                <blockquote>
+                    "I was deeply influenced by Indian culture and music. It brought a new dimension to our sound and helped us to explore different musical landscapes."
+                </blockquote>
+                <p>Ringo Starr talked about the camaraderie among the band members:</p>
+                <blockquote>
+                    "We were like brothers. We had our ups and downs, but at the end of the day, we were a family. The bond we shared was unbreakable, and it translated into our music."
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
